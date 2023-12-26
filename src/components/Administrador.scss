@@ -1,0 +1,80 @@
+.adminPrincipal {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23242a;
+
+    &__tabla {
+        padding: 2rem 1rem 4rem 1rem;
+        margin: auto 1rem;
+        background: #1c1c1c;
+        border-radius: 8px;
+        margin-top: 7rem;
+        width: 100%;
+
+        .tabla {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .tabla th,
+        .tabla td {
+            padding: 12px 15px;
+        }
+
+
+        &__thead {
+            background-color: #ff2770;
+            text-align: left;
+            font-weight: bold;
+
+        }
+
+        &__tbody {
+            color: #ffffff;
+
+            tr:nth-child(odd) {
+                background-color: #0B0B0C;
+            }
+
+            tr:nth-child(even) {
+                background-color: #212125;
+            }
+
+            tr:nth-child(odd):hover {
+                color: #ff2770;
+            }
+
+            tr:nth-child(even):hover {
+                color: #ff2770;
+            }
+
+            tr:last-of-type {
+                border-bottom: 2px solid #ff2770;
+            }
+
+            .botonPublicar {
+                background-color: #ff622d;
+            }
+        }
+    }
+
+}
+
+.custom-modal {
+    width: 60%;
+    /* Reducir el ancho del modal según sea necesario */
+    max-width: 500px;
+    /* Ancho máximo del modal */
+    margin: auto;
+    /* Centrar horizontalmente */
+    background: white;
+    /* Color de fondo */
+    padding: 20px;
+    /* Espaciado interno */
+}

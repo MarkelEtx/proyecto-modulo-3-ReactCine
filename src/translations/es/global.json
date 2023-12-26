@@ -1,0 +1,49 @@
+{
+    "cine": {
+        "welcome-to": "Bienvenido a",
+        "watch-films": "Ver Peliculas",
+        "films": "Peliculas"
+    },
+    "login": {
+        "username": "Usuario",
+        "password": "Contraseña",
+        "login": "Entrar",
+        "no-count": "No tienes cuenta",
+        "create": "Crear Usuario",
+        "no-valid": "Usuario NO Valido"
+    },
+    "crearUsu": {
+        "username": "Usuario",
+        "password": "Contraseña",
+        "no-valid": "Usuario NO Valido",
+        "login": "Crear Cuenta",
+        "name": "Nombre",
+        "imagen": "Foto De Perfil (Enlace)"
+    },
+    "admin": {
+        "buscar": "Buscar...",
+        "crear": "Crear Pelicula",
+        "titulo": "Titulo",
+        "poster": "Poster",
+        "fecha": "Fecha",
+        "duracion": "Duración",
+        "genero": "Género",
+        "butacas": "Butacas",
+        "publicar": "Publicar",
+        "eliminar": "Eliminar",
+        "quitar": "Quitar",
+        "sinopsis": "Sinopsis",
+        "comprar": "Comprar",
+        "trailer": "Trailer",
+        "disponible": "Disponibilidad"
+    },
+    "alerts": {
+        "usuC": "Usuario Creado",
+        "log": "Te tienes que loguear",
+        "comprea": "Perfil",
+        "comprasRealizadas": "Total Compras Realizadas"
+    },
+    "crearPeli": {
+        "crear": "Crear Pelicula"
+    }
+}

@@ -1,0 +1,55 @@
+.peliculaPrincipal {
+    //height: 100vh;
+    background-color: #23242a;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+
+    &__titulo {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: "Rowdies", cursive;
+        inset: 4px;
+        background: #222;
+        padding: 1.5rem;
+        border-radius: 15px;
+        border: 4px solid transparent;
+        border-image: linear-gradient(to right, red, purple);
+        border-image-slice: 1;
+        margin: 0 4rem;
+    }
+
+    &__cuerpo {
+        margin: 2rem 4rem;
+        gap: 2rem;
+
+        &__caracteristicas {
+            display: flex;
+            color: #ffffff;
+            inset: 4px;
+            background: #222;
+            padding: 1.5rem;
+            border-radius: 15px;
+            border: 4px solid #1c1c1c;
+            border-image-slice: 1;
+
+            &__titulo {
+                color: #acb0b6;
+                font-size: 16px;
+                letter-spacing: .2px;
+                line-height: 24px;
+            }
+
+            &__comprarButton {
+                color: #ffffff;
+                font-size: 1.5em;
+                margin: 1.5rem 0;
+                background: rgb(131, 58, 180);
+                background: linear-gradient(90deg, red, purple);
+                border: none;
+            }
+        }
+    }
+}

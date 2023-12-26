@@ -1,0 +1,47 @@
+{
+    "cine": {
+        "welcome-to": "Welcome to",
+        "watch-films": "Watch Films",
+        "films": "Films"
+    },
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "login": "Log In",
+        "no-count": "You don´t have an account",
+        "create": "Create User",
+        "no-valid": "Invalid User"
+    },
+    "crearUsu": {
+        "username": "Username",
+        "password": "Password",
+        "no-valid": "Invalid User",
+        "login": "Create count",
+        "name": "Name",
+        "imagen": "Profile Picture (Link)"
+    },
+    "admin": {
+        "buscar": "Search...",
+        "crear": "Create Film",
+        "titulo": "Title",
+        "poster": "Poster",
+        "fecha": "Date",
+        "duracion": "Duration",
+        "genero": "Genre",
+        "butacas": "Seats",
+        "publicar": "Publish",
+        "eliminar": "Delete",
+        "quitar": "Remove",
+        "sinopsis": "Synopsis",
+        "comprar": "Buy",
+        "trailer": "Trailer",
+        "disponible": "Availability"
+    },
+    "alerts": {
+        "comprea": "Profile",
+        "comprasRealizadas": "Total Tickets Purchased"
+    },
+    "crearPeli": {
+        "crear": "Create Film"
+    }
+}
